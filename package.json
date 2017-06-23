@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap4-input-clearer",
+  "version": "1.0.0",
+  "description": "jQuery plugin for adding a clear icon to a Bootstrap 4 input field",
+  "main": "bootstrap4-input-clearer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mheigl/bootstrap4-input-clearer.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap4",
+    "input",
+    "close",
+    "clear"
+  ],
+  "author": "Michael Heigl <mheigl@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mheigl/bootstrap4-input-clearer/issues"
+  },
+  "homepage": "https://github.com/mheigl/bootstrap4-input-clearer",
+  "peerDependencies": {
+    "jquery": ">=3.1"
+  }
+}
