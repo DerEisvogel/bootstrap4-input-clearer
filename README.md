@@ -38,7 +38,7 @@ git clone git@github.com:mheigl/bootstrap4-input-clearer.git
     <th>Default</th>
   </tr>
   <tr>
-    <td>closeHtml</td>
+    <td>clearHtml</td>
     <td>string</td>
     <td>&times;</td>
   </tr>
@@ -55,7 +55,7 @@ $("input").clearer();
 
 // Example option usage
 $("input").clearer({
-  closeHtml: "click me"
+  clearHtml: "click me"
 });
 
 ```
