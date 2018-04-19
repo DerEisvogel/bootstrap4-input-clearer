@@ -15,7 +15,7 @@ This jQuery plugin adds a clear icon to input fields for your Bootstrap 4 enable
     * [bootstrap4-input-clearer.js](https://raw.githubusercontent.com/mheigl/bootstrap4-input-clearer/master/bootstrap4-input-clearer.js)
     * [bootstrap4-input-clearer.min.js](https://raw.githubusercontent.com/mheigl/bootstrap4-input-clearer/master/bootstrap4-input-clearer.min.js)
 
-**Note**: bootstrap4-input-clearer has a dependency on jquery 3.1+ and Bootstrap 4 Alpha 6
+**Note**: bootstrap4-input-clearer has a dependency on jquery 3.1+ and Bootstrap 4
 
 #### NPM
 Install with [NPM](http://npmjs.org):

@@ -11,7 +11,7 @@
 
     var pluginName = "clearer",
         defaults = {
-            clearHtml: '&times;',
+            clearHtml: '&times;</div>',
             cssClass: 'input-clearer'
         };
 
@@ -26,7 +26,8 @@
             var self = this;
 
             this.$element = $(this.element);
-            this.$clearer = $("<a href='#' class='input-group-addon " + this.settings.cssClass + "'>" + this.settings.clearHtml + "</a>");
+            this.$clearer = $('<a href="#" class="input-group-append ' + this.settings.cssClass + '"><div class="input-group-text">'
+                + this.settings.clearHtml + '</div></a>');
 
             if (this.$element.closest('.input-group').length === 0) {
                 this.$element.wrap("<div class='input-group'></div>");
