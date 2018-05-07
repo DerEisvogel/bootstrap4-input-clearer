@@ -1,6 +1,6 @@
 {
   "name": "bootstrap4-input-clearer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "jQuery plugin for adding a clear icon to a Bootstrap 4 input field",
   "main": "bootstrap4-input-clearer.js",
   "scripts": {

@@ -1,5 +1,5 @@
 /*
- *  bootstrap4-input-clearer v1.0.0
+ *  bootstrap4-input-clearer v1.2.0
  *  Add clear icons to Bootstrap 4 input fields.
  *  https://github.com/mheigl/bootstrap4-input-clearer
  *
@@ -11,8 +11,9 @@
 
     var pluginName = "clearer",
         defaults = {
-            clearHtml: '&times;</div>',
-            cssClass: 'input-clearer'
+            clearHtml: '&times;',
+            cssClass: 'input-clearer',
+            focusable: true
         };
 
     function Plugin (element, options) {
@@ -28,6 +29,10 @@
             this.$element = $(this.element);
             this.$clearer = $('<a href="#" class="input-group-append ' + this.settings.cssClass + '"><div class="input-group-text">'
                 + this.settings.clearHtml + '</div></a>');
+
+            if (this.settings.focusable === false) {
+                this.$clearer.attr({ 'tabindex': -1 });
+            }
 
             if (this.$element.closest('.input-group').length === 0) {
                 this.$element.wrap("<div class='input-group'></div>");
